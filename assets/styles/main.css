@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'Source Serif SC';
+  src: local('Source Han Serif CN'), local('Source Han Serif SC'), local('Noto Serif SC'), url('../fonts/SourceHanSerifCN-Regular.woff2') format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Source Serif SC';
+  src: local('Source Han Serif CN'), local('Source Han Serif SC'), local('Noto Serif SC'), url('../fonts/SourceHanSerifCN-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-display: swap;
+}
+:root {
+  --serif: Times New Roman, "Source Serif SC", "FZShuSong-Z01", "新宋体", "宋体", SimSun, serif;
+  --serif-wo-latin: "Source Serif SC", "FZShuSong-Z01", "新宋体", "宋体", SimSun, serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body { min-height: 100vh; }
+a { all: unset; cursor: pointer; }
+#navbar::-webkit-scrollbar { display: none; }
+
+header {
+  height: 350px;
+  background: #3f2923;
+  color: #eaba69;
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--serif);
+}
+header .title {
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 72pt;
+}
+header .subtitle {
+  position: relative;
+  top: 25px;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 32pt;
+  font-style: italic;
+}
+
+#navbar {
+  width: 100%;
+  height: 50px;
+  background: #ffce7d;
+  text-align: center;
+  font-size: 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  font-family: var(--serif);
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.sticky + main {
+  padding-top: 100px;
+}
+.navitem {
+  display: inline-block;
+  padding: 0 50px;
+  line-height: 55px;
+  font-size: 16pt;
+  font-weight: bold;
+  transition: all 0.1s ease-in;
+}
+.navitem:hover {
+  background: #dcb26c;
+  transition: all 0.1s ease-in;
+}
+
+main {
+  padding: 50px;
+  background: #fff8c9;
+  font-family: var(--serif-wo-latin);
+  font-size: 14pt;
+}
+main #reading {
+  position: relative;
+  margin: auto;
+  width: 700px;
+}
+main h3 {
+  margin: 40px 0 20px;
+  font-size: 24pt;
+}
+main h4 {
+  margin: 20px 0 10px;
+  font-size: 20pt;
+}
+main p, blockquote {
+  line-height: 1.75em;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+main blockquote {
+  border-left: 5px #3f2923 solid;
+  margin-left: -20px;
+  padding: 5px 10px 5px 15px;
+  background: #ffe0ab;
+}
+.eng {
+  font-family: var(--serif);
+  font-size: 15pt;
+}
+.note {
+  font-weight: bold;
+  font-size: 13pt;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+}
+.special {
+  font-weight: normal;
+}
