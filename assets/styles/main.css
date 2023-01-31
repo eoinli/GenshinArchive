@@ -12,6 +12,7 @@
 :root {
   --serif: Times New Roman, "Source Serif SC", "FZShuSong-Z01", "新宋体", "宋体", SimSun, serif;
   --serif-wo-latin: "Source Serif SC", "FZShuSong-Z01", "新宋体", "宋体", SimSun, serif;
+  --serif-latin-only: Times New Roman, serif;
 }
 * {
   margin: 0;
@@ -111,7 +112,7 @@ main blockquote {
   background: #ffe0ab;
 }
 .eng {
-  font-family: var(--serif);
+  font-family: var(--serif-latin-only);
   font-size: 15pt;
 }
 .note {

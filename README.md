@@ -11,3 +11,5 @@ This is (or rather, hopefully it will be) a collection of textual content from _
 This site is not fully developed and only contains little text from the game. I'm not financially supported and I'm in Grade 9. So I'm not able to always keep up with the game, and may not be able to either review the issues in time or fix the typos. Thanks for your understanding.
 
 I hope to collect ALL of the text in _Genshin Impact_ which includes various lore, quests, books, stories and dialogues from characters and even descriptions of backpack items, but there apparently is huge amount of work left for me to do. At present I want to focus on in-game books and both literary and historical texts.
+
+[排版规范 / Formatting Guidelines](https://genshin-archive.vercel.app/format.html)
