@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Source Serif SC';
-  src: local('LXGW Bright'), local('LXGW Wenkai'), url('../fonts/SourceHanSerifCN-Regular.woff2') format('woff2');
+  src: local('LXGW Wenkai'), url('../fonts/SourceHanSerifCN-Regular.woff2') format('woff2');
   font-display: swap;
 }
 @font-face {
   font-family: 'Source Serif SC';
-  src: local('Source Han Serif CN'), local('Source Han Serif SC'), local('Noto Serif SC'), url('../fonts/SourceHanSerifCN-Bold.woff2') format('woff2');
+  src: local('Source Han Serif SC'), local('Source Han Serif CN'), local('Noto Serif SC'), url('../fonts/SourceHanSerifCN-Bold.woff2') format('woff2');
   font-weight: bold;
   font-display: swap;
 }
