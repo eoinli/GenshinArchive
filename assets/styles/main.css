@@ -18,7 +18,6 @@
   --brown: #3f2923;
   --light-brown: #ffce7d;
   --background: #fff8c9;
-  --quote: #ffe0ab;
 }
 * {
   margin: 0;
@@ -83,7 +82,7 @@ header .subtitle {
   transition: all 0.1s ease-in;
 }
 .navitem:hover {
-  background: var(--quote);
+  background: var(--light-brown);
   transition: all 0.1s ease-in;
 }
 
