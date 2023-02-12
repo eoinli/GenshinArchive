@@ -8,7 +8,7 @@
 
 大考将至，为了加紧复习，本项目的开发将放缓甚至暂停，预计今年 6 至 7 月间恢复日常开发。感谢您的支持与理解。
 
-This is (or rather, hopefully it will be) a collection of textual content from _Genshin Impact_. Considering that the Chinese work is huge enough already for me myself to finish, I will not add other languages to the Archive in the short term. I'm open to issues that pick out errors in the texts, so feel free to raise one. The webpages are currently not responsively designed, therefore, please, if you feel like viewing the pages, resize your browser suitably and try not to view the page on mobile devices, especially mobile phones, otherwise you may receive a **very awful** reading experience.
+This is (or rather, hopefully it will be) a collection of textual content from _Genshin Impact_. Considering that the Chinese work is huge enough already for me myself to finish, I will not add other languages to the Archive in the short term. I'm open to issues that pick out errors in the texts, so feel free to raise one. The webpages are currently not responsively designed, therefore, please, if you feel like viewing the pages, resize your browser suitably and try not to view the page on mobile devices, especially mobile phones, otherwise you may receive **very awful** reading experience.
 
 This site is not fully developed and only contains little text from the game. I'm not financially supported and I'm in Grade 9. So I'm not able to always keep up with the game, and may not be able to either review the issues in time or fix the typos. Thanks for your understanding.
 
