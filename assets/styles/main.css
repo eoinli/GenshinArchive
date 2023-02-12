@@ -10,9 +10,15 @@
   font-display: swap;
 }
 :root {
+  /* fonts */
   --serif: Times New Roman, "Source Serif SC", "FZShuSong-Z01", "新宋体", "宋体", SimSun, serif;
   --serif-wo-latin: "Source Serif SC", "FZShuSong-Z01", "新宋体", "宋体", SimSun, serif;
   --serif-latin-only: Times New Roman, serif;
+  /* colours */
+  --brown: #3f2923;
+  --light-brown: #ffce7d;
+  --background: #fff8c9;
+  --quote: #ffe0ab;
 }
 * {
   margin: 0;
@@ -24,8 +30,8 @@ a { all: unset; cursor: pointer; }
 
 header {
   height: 350px;
-  background: #3f2923;
-  color: #eaba69;
+  background: var(--brown);
+  color: var(--light-brown);
   text-align: center;
   font-weight: bold;
   font-family: var(--serif);
@@ -51,7 +57,7 @@ header .subtitle {
 #navbar {
   width: 100%;
   height: 50px;
-  background: #ffce7d;
+  background: var(--light-brown);
   text-align: center;
   font-size: 0;
   overflow-x: scroll;
@@ -77,13 +83,13 @@ header .subtitle {
   transition: all 0.1s ease-in;
 }
 .navitem:hover {
-  background: #dcb26c;
+  background: var(--quote);
   transition: all 0.1s ease-in;
 }
 
 main {
   padding: 50px;
-  background: #fff8c9;
+  background: var(--background);
   font-family: var(--serif-wo-latin);
   font-size: 14pt;
 }
@@ -108,7 +114,7 @@ main p, blockquote {
 main blockquote {
   border-left: 5px #3f2923 solid;
   margin-left: -20px;
-  padding: 5px 10px 5px 15px;
+  padding: 7px 10px 7px 15px;
   background: #ffe0ab;
 }
 .eng {
